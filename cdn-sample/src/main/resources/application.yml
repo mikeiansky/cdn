@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: cdn-sample
+
+io:
+  github:
+    mikeiansky:
+      cdn:
+        qiniu:
+          access-key: key
+          secret-key: key
+          url-prefix: https
+          bucket: xxx
