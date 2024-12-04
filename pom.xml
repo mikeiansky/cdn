@@ -6,7 +6,7 @@
 
     <groupId>io.github.mikeiansky</groupId>
     <artifactId>mikeiansky-cdn</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.5</version>
     <packaging>pom</packaging>
     <modules>
         <module>mikeiansky-cdn-context</module>
@@ -15,8 +15,8 @@
         <module>mikeiansky-cdn-sample</module>
     </modules>
 
-    <description>cdn</description>
-    <url>https://github.com/mikeiansky/cdn</url>
+    <description>mikeiansky-cdn</description>
+    <url>https://github.com/mikeiansky/mikeiansky-cdn</url>
     <developers>
         <developer>
             <id>mikeiansky</id>
@@ -32,9 +32,9 @@
         </license>
     </licenses>
     <scm>
-        <url>https://github.com/mikeiansky/cdn</url>
-        <connection>scm:git:git://github.com/mikeiansky/cdn.git</connection>
-        <developerConnection>scm:git:ssh://github.com/mikeiansky/cdn.git</developerConnection>
+        <url>https://github.com/mikeiansky/mikeiansky-cdn</url>
+        <connection>scm:git:git://github.com/mikeiansky/mikeiansky-cdn.git</connection>
+        <developerConnection>scm:git:ssh://github.com/mikeiansky/mikeiansky-cdn.git</developerConnection>
     </scm>
 
     <properties>

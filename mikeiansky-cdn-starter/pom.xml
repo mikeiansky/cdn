@@ -6,7 +6,7 @@
     <parent>
         <groupId>io.github.mikeiansky</groupId>
         <artifactId>mikeiansky-cdn</artifactId>
-        <version>1.0.3</version>
+        <version>1.0.5</version>
     </parent>
 
     <artifactId>mikeiansky-cdn-starter</artifactId>
