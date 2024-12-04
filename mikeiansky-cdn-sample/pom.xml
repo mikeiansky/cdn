@@ -4,10 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>io.github.mikeiansky</groupId>
-        <artifactId>cdn</artifactId>
-        <version>1.0.2</version>
+        <artifactId>mikeiansky-cdn</artifactId>
+        <version>1.0.3</version>
     </parent>
-    <artifactId>cdn-sample</artifactId>
+    <artifactId>mikeiansky-cdn-sample</artifactId>
 
     <properties>
         <maven.deploy.skip>true</maven.deploy.skip>
@@ -28,7 +28,7 @@
 
         <dependency>
             <groupId>io.github.mikeiansky</groupId>
-            <artifactId>cdn-starter</artifactId>
+            <artifactId>mikeiansky-cdn-starter</artifactId>
         </dependency>
 
     </dependencies>

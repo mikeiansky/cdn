@@ -5,25 +5,20 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>io.github.mikeiansky</groupId>
-        <artifactId>cdn</artifactId>
-        <version>1.0.2</version>
+        <artifactId>mikeiansky-cdn</artifactId>
+        <version>1.0.3</version>
     </parent>
 
-    <artifactId>cdn-autoconfigure</artifactId>
+    <artifactId>mikeiansky-cdn-starter</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
+            <groupId>io.github.mikeiansky</groupId>
+            <artifactId>mikeiansky-cdn-context</artifactId>
         </dependency>
         <dependency>
             <groupId>io.github.mikeiansky</groupId>
-            <artifactId>cdn-context</artifactId>
+            <artifactId>mikeiansky-cdn-autoconfigure</artifactId>
         </dependency>
     </dependencies>
 

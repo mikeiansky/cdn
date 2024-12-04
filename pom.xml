@@ -5,14 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.mikeiansky</groupId>
-    <artifactId>cdn</artifactId>
-    <version>1.0.2</version>
+    <artifactId>mikeiansky-cdn</artifactId>
+    <version>1.0.3</version>
     <packaging>pom</packaging>
     <modules>
-        <module>cdn-context</module>
-        <module>cdn-autoconfigure</module>
-        <module>cdn-starter</module>
-        <module>cdn-sample</module>
+        <module>mikeiansky-cdn-context</module>
+        <module>mikeiansky-cdn-autoconfigure</module>
+        <module>mikeiansky-cdn-starter</module>
+        <module>mikeiansky-cdn-sample</module>
     </modules>
 
     <description>cdn</description>
@@ -54,17 +54,17 @@
             <!-- 管理子模块版本 -->
             <dependency>
                 <groupId>io.github.mikeiansky</groupId>
-                <artifactId>cdn-context</artifactId>
+                <artifactId>mikeiansky-cdn-context</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>io.github.mikeiansky</groupId>
-                <artifactId>cdn-autoconfigure</artifactId>
+                <artifactId>mikeiansky-cdn-autoconfigure</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>io.github.mikeiansky</groupId>
-                <artifactId>cdn-starter</artifactId>
+                <artifactId>mikeiansky-cdn-starter</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
